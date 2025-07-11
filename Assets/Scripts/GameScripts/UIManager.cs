@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -99,6 +100,13 @@ public class UIManager: MonoBehaviour
         Scene currentScene = SceneManager.GetActiveScene();
         // 重新加载当前场景
         SceneManager.LoadScene(currentScene.buildIndex);
+    }
+
+    //列表
+    public void CollickListButton()
+    {
+        //加载主场景
+        SceneManager.LoadScene(0);
     }
 
     //星星数量计算

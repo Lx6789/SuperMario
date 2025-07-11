@@ -70,8 +70,11 @@
     <Compile Include="Assets\Scripts\GameScripts\MysteryBox.cs" />
     <Compile Include="Assets\Scripts\GameScripts\SuperMario.cs" />
     <Compile Include="Assets\Scripts\GameScripts\UIManager.cs" />
+    <Compile Include="Assets\Scripts\MainScripts\Level.cs" />
+    <Compile Include="Assets\Scripts\MainScripts\LevelUI.cs" />
     <Compile Include="Assets\Scripts\MainScripts\MainUIs.cs" />
     <Compile Include="Assets\Scripts\MainScripts\MoreUIs.cs" />
+    <Compile Include="Assets\Scripts\SO\GameSO.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

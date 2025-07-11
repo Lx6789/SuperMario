@@ -7,7 +7,8 @@ public class MainUIs : MonoBehaviour
 {
 
     public GameObject moreUI;
-    public GameObject loadingUI;
+    //public GameObject loadingUI;
+    public GameObject LevellistGrid;
 
     // Start is called before the first frame update
     void Start()
@@ -37,9 +38,11 @@ public class MainUIs : MonoBehaviour
     //开始游戏
     public void PlayGame()
     {
-        DeactivateAllChildren();
-        loadingUI.SetActive(true);
-        StartCoroutine(LoadNextScene());
+        gameObject.SetActive(false);
+        LevellistGrid.SetActive(true);
+        //DeactivateAllChildren();
+        //loadingUI.SetActive(true);
+        //StartCoroutine(LoadNextScene());
     }
 
     //等待0-3秒后更换场景

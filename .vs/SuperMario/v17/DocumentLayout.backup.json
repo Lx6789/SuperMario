@@ -3,52 +3,28 @@
   "WorkspaceRootPath": "D:\\study\\unity2\\SuperMario\\SuperMario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|D:\\study\\unity2\\SuperMario\\SuperMario\\assets\\scripts\\gamescripts\\supermario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\supermario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|D:\\study\\unity2\\SuperMario\\SuperMario\\assets\\scripts\\so\\gameso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\so\\gameso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|d:\\study\\unity2\\supermario\\supermario\\assets\\scripts\\gamescripts\\endhouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\endhouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|d:\\study\\unity2\\supermario\\supermario\\assets\\scripts\\mainscripts\\levelui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainscripts\\levelui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|D:\\study\\unity2\\SuperMario\\SuperMario\\assets\\scripts\\mainscripts\\mainuis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainscripts\\mainuis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|D:\\study\\unity2\\SuperMario\\SuperMario\\assets\\scripts\\mainscripts\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainscripts\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|D:\\study\\unity2\\SuperMario\\SuperMario\\assets\\scripts\\gamescripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|D:\\study\\unity2\\SuperMario\\SuperMario\\assets\\scripts\\gamescripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|D:\\study\\unity2\\SuperMario\\SuperMario\\assets\\scripts\\gamescripts\\golds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\golds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|D:\\study\\unity2\\SuperMario\\SuperMario\\assets\\scripts\\gamescripts\\mushroommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\mushroommanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|D:\\study\\unity2\\SuperMario\\SuperMario\\assets\\scripts\\gamescripts\\enemy2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\enemy2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|D:\\study\\unity2\\SuperMario\\SuperMario\\assets\\scripts\\gamescripts\\enemie1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\enemie1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|D:\\study\\unity2\\SuperMario\\SuperMario\\assets\\scripts\\gamescripts\\gold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\gold.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|D:\\study\\unity2\\SuperMario\\SuperMario\\assets\\scripts\\gamescripts\\mysterybox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\mysterybox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|D:\\study\\unity2\\SuperMario\\SuperMario\\assets\\scripts\\gamescripts\\brick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\brick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|D:\\study\\unity2\\SuperMario\\SuperMario\\assets\\scripts\\gamescripts\\mushroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamescripts\\mushroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|D:\\study\\unity2\\SuperMario\\SuperMario\\assets\\scripts\\mainscripts\\moreuis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A817F398-A3E1-586B-4C05-1F62B4483374}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainscripts\\moreuis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,155 +34,81 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Enemie1.cs",
-              "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\Enemie1.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\Enemie1.cs",
-              "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\Enemie1.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\Enemie1.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAASwGoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T10:50:54.782Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SuperMario.cs",
-              "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\SuperMario.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\SuperMario.cs",
-              "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\SuperMario.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\SuperMario.cs",
-              "ViewState": "AgIAAOUAAAAAAAAAAAAjwPUAAAAyAAAAAAAAAA==",
+              "Title": "GameSO.cs",
+              "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\SO\\GameSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SO\\GameSO.cs",
+              "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\SO\\GameSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SO\\GameSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T12:05:22.727Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-07-10T14:44:31.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnemyManager.cs",
-              "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\EnemyManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\EnemyManager.cs",
-              "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\EnemyManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\EnemyManager.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAowBAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T09:32:46.043Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Golds.cs",
-              "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\Golds.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\Golds.cs",
-              "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\Golds.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\Golds.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAawB0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T09:25:12.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "UIManager.cs",
               "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\UIManager.cs",
               "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\UIManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameScripts\\UIManager.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAhwGoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwBUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T06:32:30.794Z"
+              "WhenOpened": "2025-07-10T14:15:08.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Gold.cs",
-              "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\Gold.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\Gold.cs",
-              "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\Gold.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\Gold.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Level.cs",
+              "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\MainScripts\\Level.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainScripts\\Level.cs",
+              "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\MainScripts\\Level.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainScripts\\Level.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T05:37:37.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MushroomManager.cs",
-              "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\MushroomManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\MushroomManager.cs",
-              "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\MushroomManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\MushroomManager.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvxEAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T08:24:41.676Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Brick.cs",
-              "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\Brick.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\Brick.cs",
-              "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\Brick.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\Brick.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T12:03:20.119Z"
+              "WhenOpened": "2025-07-10T13:53:37.334Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EndHouse.cs",
-              "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\EndHouse.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\EndHouse.cs",
-              "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\EndHouse.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\EndHouse.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBYAAAAZAAAAAAAAAA==",
+              "Title": "LevelUI.cs",
+              "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\MainScripts\\LevelUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainScripts\\LevelUI.cs",
+              "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\MainScripts\\LevelUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainScripts\\LevelUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T10:43:27.021Z",
+              "WhenOpened": "2025-07-10T13:30:28.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Enemy2.cs",
-              "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\Enemy2.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\Enemy2.cs",
-              "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\Enemy2.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\Enemy2.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAwHoAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "MoreUIs.cs",
+              "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\MainScripts\\MoreUIs.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainScripts\\MoreUIs.cs",
+              "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\MainScripts\\MoreUIs.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainScripts\\MoreUIs.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T13:41:37.773Z"
+              "WhenOpened": "2025-07-10T13:27:51.51Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Mushroom.cs",
-              "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\Mushroom.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\Mushroom.cs",
-              "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\Mushroom.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\Mushroom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABKAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MainUIs.cs",
+              "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\MainScripts\\MainUIs.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainScripts\\MainUIs.cs",
+              "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\MainScripts\\MainUIs.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainScripts\\MainUIs.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwCwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T08:29:49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MysteryBox.cs",
-              "DocumentMoniker": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\MysteryBox.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameScripts\\MysteryBox.cs",
-              "ToolTip": "D:\\study\\unity2\\SuperMario\\SuperMario\\Assets\\Scripts\\GameScripts\\MysteryBox.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameScripts\\MysteryBox.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvxgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T10:57:44.248Z"
+              "WhenOpened": "2025-07-10T13:24:53.38Z"
             }
           ]
         }
