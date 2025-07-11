@@ -6,6 +6,7 @@ public class MoreUIs : MonoBehaviour
 {
 
     public GameObject mainUIs;
+    public MainUIManager mainUIManager;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +23,6 @@ public class MoreUIs : MonoBehaviour
     //返回主页
     public void BackMain()
     {
-        gameObject.SetActive(false);
-        mainUIs.SetActive(true);
+        mainUIManager.OpenMainUI();
     }
 }

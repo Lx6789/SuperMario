@@ -4,33 +4,35 @@ using UnityEngine;
 
 public class LevelUI : MonoBehaviour
 {
+    public MainUIManager mainUIManager;
 
-    public GameObject mainUIs;
-    public GameObject gameSO;
-    public GameObject levels;
+    public GameObject[] levels;
 
-    // Start is called before the first frame update
-    void Start()
+    public GameSO gameSO;
+
+    private void Start()
     {
-        
+        Show();
     }
 
-    // Update is called once per frame
-    void Update()
+    //返回按钮
+    public void OnClickBackButton()
     {
-        
+        mainUIManager.OpenMainUI();
     }
 
-    //返回主页
-    public void BackMain()
+    //刷新关卡数据并显示关卡解锁状态
+    public void Show()
     {
-        gameObject.SetActive(false);
-        mainUIs.SetActive(true);
+        if (gameSO.starNumberOfLevel.Length != levels.Length) return;
+        for (int i = 0; i < gameSO.starNumberOfLevel.Length; i++) {
+            levels[i].GetComponent<Level>().ShowLevel(gameSO.starNumberOfLevel[i]);
+        }
     }
 
-    //跟新关卡数据
-    private void UpdateUIList()
+    //切换加载场景
+    public void Load()
     {
-
+        mainUIManager.OpenLoadUI();
     }
 }

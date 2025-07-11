@@ -1,46 +1,47 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Level : MonoBehaviour
 {
 
-    public GameObject unlockGo;
-    public GameObject lockGo;
-    public Image star;
-    public Sprite[] stars;
+    public GameObject lockGO;
+    public GameObject unlockGO;
 
-    //public int starsCount = 0;
+    public Sprite[] starSprites;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //Show(starsCount);
-    }
-
-    //关卡图片 starCount（-1 已锁； >=0 解锁）
-    public void  Show(int starCount)
+    //展示关卡样式
+    public void ShowLevel(int starCount)
     {
         if (starCount < 0)
         {
-            unlockGo.SetActive(false);
-            lockGo.SetActive(true);
+            isLockOfLevel(true);
         }
-        else {
+        else { 
             if (starCount > 3) return;
-            star.sprite = stars[starCount];
+            isLockOfLevel(false);
+            gameObject.transform.Find("Unlock").transform.Find("star").GetComponent<Image>().sprite = starSprites[starCount];
         }
     }
 
-    public void OnClick()
+    private void isLockOfLevel(bool isLock)
     {
-
+        if (isLock) {
+            lockGO.SetActive(true);
+            unlockGO.SetActive(false);
+        } else
+        {
+            lockGO.SetActive(false);
+            unlockGO.SetActive(true);
+        }
     }
+
+    //点击关卡
+    public void OnClickLevel()
+    {
+        GetComponentInParent<LevelUI>().Load();
+    }
+
 }

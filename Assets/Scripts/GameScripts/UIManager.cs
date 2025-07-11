@@ -143,7 +143,44 @@ public class UIManager: MonoBehaviour
 
     public void CollickList()
     {
+        LoadLevel("MainScene");
+    }
 
+    public void LoadLevel(string sceneName)
+    {
+        StartCoroutine(LoadSceneAfterDelay(sceneName));
+    }
+
+    private IEnumerator LoadSceneAfterDelay(string sceneName)
+    {
+        Debug.Log("bbb");
+        // 实际上，场景加载是异步的，因此我们应该使用 SceneManager.LoadSceneAsync
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName);
+        //Debug.Log("bbb");
+        // 等待场景加载完成
+        while (!asyncLoad.isDone)
+        {
+            yield return null; // 每帧等待
+        }
+        //Debug.Log("aaa");
+        // 获取新场景中某个组件并调用它的方法（在这里我们要确保这个方法是存在的）。
+        GameObject uiManager = GameObject.Find("UIManager"); // 替换为目标对象名称
+        if (uiManager != null)
+        {
+            MainUIManager mainUIManager = uiManager.GetComponent<MainUIManager>();
+            if (mainUIManager != null)
+            {
+                mainUIManager.OpenLevelUI();
+            }
+            else
+            {
+                Debug.LogError("MainUIManager component not found on the object!");
+            }
+        }
+        else
+        {
+            Debug.LogError("Object 'YourSceneObjectName' not found in the new scene!");
+        }
     }
 
     public void GameOver()
