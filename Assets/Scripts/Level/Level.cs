@@ -10,6 +10,8 @@ public class Level : MonoBehaviour
     public GameObject lockGO;
     public GameObject unlockGO;
 
+    public int levelId;
+
     public Sprite[] starSprites;
 
     //展示关卡样式
@@ -41,7 +43,7 @@ public class Level : MonoBehaviour
     //点击关卡
     public void OnClickLevel()
     {
-        GetComponentInParent<LevelUI>().Load();
+        GetComponentInParent<LevelUI>().Load(levelId);
     }
 
 }

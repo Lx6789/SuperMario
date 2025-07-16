@@ -40,6 +40,7 @@ public class Mushroom : MonoBehaviour
     {
         if (isCollected || !other.CompareTag("Player")) return;
 
+        AudioManager.instance.PlayEatFood(transform.position);
         CollectMushroom(other.GetComponent<SuperMario>());
     }
 

@@ -30,12 +30,14 @@ public class LevelUI : MonoBehaviour
         if (gameSO.starNumberOfLevel.Length != levels.Length) return;
         for (int i = 0; i < gameSO.starNumberOfLevel.Length; i++) {
             levels[i].GetComponent<Level>().ShowLevel(gameSO.starNumberOfLevel[i]);
+            levels[i].GetComponent<Level>().levelId = i + 1;
         }
     }
 
     //打开加载页面
-    public void Load()
+    public void Load(int levelId)
     {
+        gameSO.levelId = levelId;
         LoadUI.SetActive(true);
         gameObject.SetActive(false); 
         load.GetComponent<LoadUI>().openGame();

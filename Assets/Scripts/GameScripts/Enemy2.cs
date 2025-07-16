@@ -109,20 +109,20 @@ public class Enemy2 : MonoBehaviour
 
     private void HandlePlayerCollision(Collision2D collision)
     {
-        if (hasCollided || isDead) return;
-
+        if (hasCollided) return;
+        
         hasCollided = true;
         bool playerOnTop = CheckIfPlayerOnTop(collision);
         bool shouldNotDamage = playerOnTop && !isTurtleShell;
 
         // 伤害判定
-        if (!shouldNotDamage)
+        if (playerOnTop || isTurtleShell)
         {
             player?.ChangeHealth(-1);
         }
 
         // 变身判定
-        if (playerOnTop && !isTurtleShell)
+        if (!shouldNotDamage)
         {
             TurnIntoTurtleShell();
         }
@@ -139,11 +139,11 @@ public class Enemy2 : MonoBehaviour
 
     private void TurnIntoTurtleShell()
     {
-        isDead = true;
+        if (!isDead) uiManager?.UpdateKillText();
         isTurtleShell = true;
+        isDead = true;
         animator.SetBool("isDead", true);
         rb.AddForce(new Vector2(shellKnockbackForce * direction, 0), ForceMode2D.Impulse);
-        uiManager?.UpdateKillText();
         StartCoroutine(DestroyAfterDelay(deathDelay));
     }
 

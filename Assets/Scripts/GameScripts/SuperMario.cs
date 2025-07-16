@@ -40,23 +40,22 @@ public class SuperMario : MonoBehaviour
 
     [Header("引用对象")]
     public GameObject gameOverUI;
-    private Enemy1 enemy1;
-    private Enemy2 enemy2;
+    private LevelManager levelManager;
 
     private void Start()
     {
         InitializeComponents();
         InitializeState();
+        FindLevelManager();
+        FindUIManager();
     }
+
 
     private void InitializeComponents()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
-
-        enemy1 = FindObjectOfType<Enemy1>();
-        enemy2 = FindObjectOfType<Enemy2>();
     }
 
     private void InitializeState()
@@ -67,6 +66,20 @@ public class SuperMario : MonoBehaviour
 
         originalScale = transform.localScale;
         originalColliderSize = boxCollider.size;
+    }
+
+    private void FindLevelManager()
+    {
+        levelManager = LevelManager.Instance;
+        if (levelManager != null && levelManager.player == null)
+        {
+            levelManager.player = this;
+        }
+    }
+
+    private void FindUIManager()
+    {
+        uiManager = UIManager.Instance;
     }
 
     private void Update()
@@ -122,6 +135,7 @@ public class SuperMario : MonoBehaviour
 
     private void PerformJump(Vector2 force)
     {
+        AudioManager.instance.PlayJump(transform.position);
         rigidbody2d.AddForce(force, ForceMode2D.Impulse);
         isGrounded = false;
         UpdateAnimation(false, false, true);
@@ -172,10 +186,14 @@ public class SuperMario : MonoBehaviour
         }
     }
 
+    
     private void CollectGold(GameObject goldObject)
     {
         currentGold += goldValue;
-        uiManager.UpdateGold(currentGold);
+        if (uiManager != null)
+        {
+            uiManager.UpdateGold(currentGold);
+        }
         Destroy(goldObject);
     }
 
@@ -210,6 +228,7 @@ public class SuperMario : MonoBehaviour
         }
         else if (amount < 0)
         {
+            AudioManager.instance.PlayDeth(transform.position);
             StartCoroutine(RespawnRoutine());
         }
     }
@@ -236,15 +255,22 @@ public class SuperMario : MonoBehaviour
 
     private void HandleDeath()
     {
-        uiManager.ShowGameOver();
-        gameOverUI.SetActive(true);
+        if (uiManager != null)
+        {
+            uiManager.ShowGameOver(transform.position);
+        }
+
         SetMotion(false);
 
-        if (enemy1 != null) enemy1.SetMotion(false);
-        if (enemy2 != null) enemy2.SetMotion(false);
+        // 通过LevelManager控制敌人
+        if (levelManager != null && levelManager.enemyManager != null)
+        {
+            levelManager.enemyManager.SetChildrenMotion(false);
+        }
 
         Destroy(gameObject, 1f);
     }
+
 
     public void SetMotion(bool isActive)
     {

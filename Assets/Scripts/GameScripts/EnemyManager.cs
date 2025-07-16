@@ -13,12 +13,21 @@ public class EnemyManager : MonoBehaviour
     private void Start()
     {
         InitializeEnemyCount();
+        RegisterWithLevelManager();
     }
 
     private void InitializeEnemyCount()
     {
         totalEnemyCount = CountEnemies();
         currentEnemyCount = totalEnemyCount;
+    }
+
+    private void RegisterWithLevelManager()
+    {
+        if (LevelManager.Instance != null)
+        {
+            LevelManager.Instance.enemyManager = this;
+        }
     }
 
     private void Update()

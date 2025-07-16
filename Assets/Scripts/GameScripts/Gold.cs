@@ -9,6 +9,7 @@ public class Gold : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            AudioManager.instance.PlayCoin(transform.position);
             Destroy(gameObject);
         }
     }

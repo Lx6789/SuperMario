@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Brick : MonoBehaviour
 {
+
     //被马里奥从下往上碰撞到后摧毁
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -14,6 +15,7 @@ public class Brick : MonoBehaviour
             {
                 if (contact.normal.y > 0) // 碰撞点法线朝下
                 {
+                    AudioManager.instance.PlayBumpBrick(transform.position);
                     Destroy(gameObject);
                 }
             }

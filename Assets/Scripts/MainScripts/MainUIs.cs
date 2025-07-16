@@ -13,18 +13,6 @@ public class MainUIs : MonoBehaviour
 
     public MainUIManager mainUIManager;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     //打开mama
     public void OpenMaMa()
     {

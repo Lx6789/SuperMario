@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Level
   m_EditorClassIdentifier: 
   starNumberOfLevel: 00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  levelId: 1
